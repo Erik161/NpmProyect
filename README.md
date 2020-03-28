@@ -11,15 +11,20 @@ con toda la comunidad.
 El cual se encarga de administrar todos estos paquetes tiene un sitio robusto donde tu vas a encontrar toda
 esta información y tambien como desarrollador vas a poder crear estos paquetes aqui vas a poderlos publicar 
 tener una serie de recursos para la comunidad puedan implementar con tus proyectos.
+
+Encontraras un gran listado de recursos donde tu como desarrollador podras implementar en tus proyectos
+desde librerias que son Open Source, hasta proyectos que nos van a dar vida a nuestras aplicaciones.
+
 ```
 
 ### INSTALACIÓN
 ```
 Descarga Node.js ya te incluye una versión de NPM
-
 ```
 
 ## [NODE.JS](https://nodejs.org/es/)
 
 
 <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" width="400"></p>
+
+
