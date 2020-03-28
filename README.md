@@ -12,3 +12,14 @@ El cual se encarga de administrar todos estos paquetes tiene un sitio robusto do
 esta información y tambien como desarrollador vas a poder crear estos paquetes aqui vas a poderlos publicar 
 tener una serie de recursos para la comunidad puedan implementar con tus proyectos.
 ```
+
+### INSTALACIÓN
+```
+Descarga Node.js ya te incluye una versión de NPM
+
+```
+
+## [NODE.JS](https://nodejs.org/es/)
+
+
+<p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" width="400"></p>
