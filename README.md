@@ -36,7 +36,6 @@ la ultima versión.
 
 
 ## INICIAR NUESTRO PROYECTO
-
 ```
 Ingresamos el siguiente comando:
 ```
@@ -66,9 +65,11 @@ y ciertos valores que necesita.
 
 >license: MIT
 
+## INICIAR PROYECTO DE FORMA RAPIDA
 
-
-
+```
+no modificamos el Json hasta mas adelante.
+```
 
 
 
