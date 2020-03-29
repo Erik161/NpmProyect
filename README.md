@@ -35,6 +35,40 @@ la ultima versión.
 >$ npm install -g npm@latest
 
 
+## INICIAR NUESTRO PROYECTO
+
+```
+Ingresamos el siguiente comando:
+```
+>$ npm init
+
+```
+Nos permite crear el archivo package.json
+con el cual vamos a tener una configuración 
+establecida una descripción del proyecto
+y ciertos valores que necesita.
+```
+>package name: (jsnpm)
+
+>version: (1.0.0)
+
+>description:Construir un paquete para node.
+
+>entry point:(index.js) src/index.js
+
+>test command:
+
+>git repository:
+
+>keywords: javascript,node, package
+
+>author: Erik Hernandez <erikexamplehotmail.com>
+
+>license: MIT
+
+
+
+
 
 
 
