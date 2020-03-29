@@ -27,4 +27,21 @@ Descarga Node.js ya te incluye una versión de NPM
 
 <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" width="400"></p>
 
+```
+Luego de la instalación debemos ingresar el siguiente comando para comprobar si existe una versión 
+mas reciente de npm y si existe la va instalar en nuestro sistema nos va a garantizar que tengamos
+la ultima versión.
+```
+>$ npm install -g npm@latest
+
+
+
+
+
+
+
+
+
+
+
 
