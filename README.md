@@ -32,19 +32,17 @@ Luego de la instalación debemos ingresar el siguiente comando para comprobar si
 mas reciente de npm y si existe la va instalar en nuestro sistema nos va a garantizar que tengamos
 la ultima versión.
 ```
->$ npm install -g npm@latest
+> $ npm install -g npm@latest
 
 
 ## INICIAR NUESTRO PROYECTO
 ```
 Ingresamos el siguiente comando:
 ```
->$ npm init
+> $ npm init
 
 ```
-Nos permite crear el archivo package.json
-con el cual vamos a tener una configuración 
-establecida una descripción del proyecto
+Nos permite crear el archivo package.json con el cual vamos a tener una configuración establecida una descripción del proyecto
 y ciertos valores que necesita.
 ```
 >package name: (jsnpm)
@@ -68,8 +66,21 @@ y ciertos valores que necesita.
 ## INICIAR PROYECTO DE FORMA RAPIDA
 
 ```
-no modificamos el Json hasta mas adelante.
+No modificamos el Json hasta mas adelante, realiza un Json estatico,
+ingresamos el siguiente comando en consola:
 ```
+> $ npm init -y
+
+## SIGUIENTE FORMA DE DECLARAR DE FORMA ESTATICA TU PROYECTO
+
+```
+Al ingresar estos comandos va anadir en la configuracion de npm este valor, automaticamente establece estos valores
+a cada proyecto que tu inicialices
+```
+>npm set init.author.email "erikexample@hotmail.com"
+>npm set init.author.name "Erik Hernandez"
+>npm set init.license "MIT"
+
 
 
 
