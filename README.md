@@ -96,7 +96,9 @@ para instalar paquetes en nuetros proyectos.
 Aqui es donde nostros vamos a instalar las dependencias son recursos que vamos a utilizar dentro de 
 nuestros proyectos partiendo que hay una gran cantidad de estos recursos.
 ```
-> Crear una carpeta SRC y un archivo index.js para consumir los recursos que hemos instalados.
+<ul>
+<li>Crear una carpeta SRC y un archivo index.js para consumir los recursos que hemos instalados.</li> 
+</ul> 
 
 ```
 EJEMPLO:
@@ -121,6 +123,27 @@ Como puedo ignorar esto?</li>
   <li>Creamos un nuevo archivo .gitignore y adentro colocamos node_modules/ con esto indicamos que toda esta
 carpeta no debe ser mandada a ningun repositorio y obviamente a tu proyecto de produccion.</li>
 </ul>  
+
+```
+Otra forma de trabajar con npm fluidamente es resumir install, --save -dev y lo hacemos de la siguiente manera:
+```
+> npm i date-fns -D
+
+> npm i moment -S
+
+```
+En algun momento vas a necesitar que un paquete corra de forma global, uno de los principales proyectos que se instala 
+de forma global se llama nodemon, nos permite generar un demonio que se va encargar de estar siempre escuchando algun 
+cambio algun valor va dejar y mantener nuestro proceso algun comando que estemos ejecutando de node:
+```
+> npm install -g nodemon
+
+
+```
+El siguiente comando se utiliza para listar todos los recursos que estan instalados de forma global en npm:
+```
+> npm list -g --depth 0
+
 
 
 
