@@ -74,11 +74,15 @@ ingresamos el siguiente comando en consola:
 ## SIGUIENTE FORMA DE DECLARAR DE FORMA ESTATICA TU PROYECTO
 
 ```
-Al ingresar estos comandos va anadir en la configuracion de npm este valor, automaticamente establece 
-estos valores a cada proyecto que tu inicialices
+Al ingresar estos comandos va añadir en la configuración de npm este valor, automaticamente establece 
+estos valores a cada proyecto que tu inicialices de tu maquina vas a poder tener esta configuración 
+guardada.
 ```
 >npm set init.author.email "erikexample@hotmail.com"
 
 >npm set init.author.name "Erik Hernandez"
 
 >npm set init.license "MIT"
+
+
+
