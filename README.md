@@ -42,8 +42,8 @@ Ingresamos el siguiente comando:
 > $ npm init
 
 ```
-Nos permite crear el archivo package.json con el cual vamos a tener una configuración establecida una descripción del proyecto
-y ciertos valores que necesita.
+Nos permite crear el archivo package.json con el cual vamos a tener una configuración establecida una 
+descripción del proyecto y ciertos valores que necesita.
 ```
 >package name: (jsnpm)
 
@@ -74,20 +74,9 @@ ingresamos el siguiente comando en consola:
 ## SIGUIENTE FORMA DE DECLARAR DE FORMA ESTATICA TU PROYECTO
 
 ```
-Al ingresar estos comandos va anadir en la configuracion de npm este valor, automaticamente establece estos valores
-a cada proyecto que tu inicialices
+Al ingresar estos comandos va anadir en la configuracion de npm este valor, automaticamente establece 
+estos valores a cada proyecto que tu inicialices
 ```
 >npm set init.author.email "erikexample@hotmail.com"
 >npm set init.author.name "Erik Hernandez"
 >npm set init.license "MIT"
-
-
-
-
-
-
-
-
-
-
-
