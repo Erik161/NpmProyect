@@ -45,23 +45,19 @@ Ingresamos el siguiente comando:
 Nos permite crear el archivo package.json con el cual vamos a tener una configuración establecida una 
 descripción del proyecto y ciertos valores que necesita.
 ```
->package name: (jsnpm)
 
->version: (1.0.0)
+<ul>  
+<li>package name: (jsnpm)</li>
+<li>version: (1.0.0)</li>
+<li>description:Construir un paquete para node</li>
+<li>entry point:(index.js) src/index.js</li>
+<li>test command:</li>
+<li>git repository:</li>
+<li>keywords: javascript,node, package</li>
+<li>author: Erik Hernandez <erikexamplehotmail.com></li>
+<li>license: MIT</li>
+</ul>
 
->description:Construir un paquete para node.
-
->entry point:(index.js) src/index.js
-
->test command:
-
->git repository:
-
->keywords: javascript,node, package
-
->author: Erik Hernandez <erikexamplehotmail.com>
-
->license: MIT
 
 ## INICIAR PROYECTO DE FORMA RAPIDA
 
@@ -78,11 +74,11 @@ Al ingresar estos comandos va añadir en la configuración de npm este valor, au
 estos valores a cada proyecto que tu inicialices de tu maquina vas a poder tener esta configuración 
 guardada.
 ```
->npm set init.author.email "erikexample@hotmail.com"
-
->npm set init.author.name "Erik Hernandez"
-
->npm set init.license "MIT"
+<ul>
+ <li>npm set init.author.email "erikexample@hotmail.com"</li>
+ <li>npm set init.author.name "Erik Hernandez"</li>
+ <li>npm set init.license "MIT"</li>
+</ul>
 
 ```
 luego agregamos el siguiente comando para iniciar un nuevo proyecto ya con todos los valores automaticamente
@@ -102,8 +98,6 @@ nuestros proyectos partiendo que hay una gran cantidad de estos recursos.
 ```
 > Crear una carpeta SRC y un archivo index.js para consumir los recursos que hemos instalados.
 
-
-
 ```
 EJEMPLO:
 npm install moment --save-dev
@@ -120,13 +114,31 @@ las dependencias que requieren nuestro proyecto.
 Porque es muy importante no mandar dependencias a produccion ni omitir unas que deban estar en 
 produccion.
 ```
-
->La Carpeta node_modules Aqui es donde se van a descargar los modulos que estas instalando pero no debe ser 
+<ul>
+  <li>La Carpeta node_modules Aqui es donde se van a descargar los modulos que estas instalando pero no debe ser 
 enviada a ningun repositorio y debemos ingnorarla apenas se crea.
-Como puedo ignorar esto?
+Como puedo ignorar esto?</li>
+  <li>Creamos un nuevo archivo .gitignore y adentro colocamos node_modules/ con esto indicamos que toda esta
+carpeta no debe ser mandada a ningun repositorio y obviamente a tu proyecto de produccion.</li>
+</ul>  
 
->Creamos un nuevo archivo .gitignore y adentro colocamos node_modules/ con esto indicamos que toda esta
-carpeta no debe ser mandada a ningun repositorio y obviamente a tu proyecto de produccion.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
