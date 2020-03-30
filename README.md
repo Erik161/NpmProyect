@@ -84,5 +84,15 @@ guardada.
 
 >npm set init.license "MIT"
 
+```
+luego agregamos el siguiente comando para iniciar un nuevo proyecto ya con todos los valores automaticamente los agrega:
+```
+> npm init -y
 
 
+## COMO ES LA FORMA DE INSTALAR PAQUETES
+
+```
+Desde un paquete convencional hasta un paquete que es global o con todas las opciones que tenemos 
+para instalar paquetes en nuetros proyectos.
+```
