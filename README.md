@@ -78,5 +78,7 @@ Al ingresar estos comandos va anadir en la configuracion de npm este valor, auto
 estos valores a cada proyecto que tu inicialices
 ```
 >npm set init.author.email "erikexample@hotmail.com"
+
 >npm set init.author.name "Erik Hernandez"
+
 >npm set init.license "MIT"
