@@ -85,7 +85,8 @@ guardada.
 >npm set init.license "MIT"
 
 ```
-luego agregamos el siguiente comando para iniciar un nuevo proyecto ya con todos los valores automaticamente los agrega:
+luego agregamos el siguiente comando para iniciar un nuevo proyecto ya con todos los valores automaticamente
+los agrega:
 ```
 > npm init -y
 
@@ -95,4 +96,31 @@ luego agregamos el siguiente comando para iniciar un nuevo proyecto ya con todos
 ```
 Desde un paquete convencional hasta un paquete que es global o con todas las opciones que tenemos 
 para instalar paquetes en nuetros proyectos.
+
+Aqui es donde nostros vamos a instalar las dependencias son recursos que vamos a utilizar dentro de 
+nuestros proyectos partiendo que hay una gran cantidad de estos recursos.
 ```
+> Crear una carpeta SRC y un archivo index.js para consumir los recursos que hemos instalados.
+
+
+
+```
+EJEMPLO:
+npm install moment --save-dev
+
+que significa --save?
+que este documento que vas a instalar dentro del proyecto es necesario para vivir en produccion
+entonces tenemos que tener cuidado cuando un paquete es a produccion y cuando no lo es.
+
+Que significa -dev?
+que este documento que vamos a instalar solo es necesario en nuestro entorno local o en el entorno de 
+desarrollo partiendo de esta diferencia nosotros vamos a tomar desiciones cuando estemos instalando
+las dependencias que requieren nuestro proyecto.
+
+Porque es muy importante no mandar dependencias a produccion ni omitir unas que deban estar en 
+produccion.
+```
+
+
+
+
