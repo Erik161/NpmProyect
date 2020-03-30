@@ -121,6 +121,12 @@ Porque es muy importante no mandar dependencias a produccion ni omitir unas que 
 produccion.
 ```
 
+>La Carpeta node_modules Aqui es donde se van a descargar los modulos que estas instalando pero no debe ser 
+enviada a ningun repositorio y debemos ingnorarla apenas se crea.
+Como puedo ignorar esto?
+
+>Creamos un nuevo archivo .gitignore y adentro colocamos node_modules/ con esto indicamos que toda esta
+carpeta no debe ser mandada a ningun repositorio y obviamente a tu proyecto de produccion.
 
 
 
