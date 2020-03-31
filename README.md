@@ -145,13 +145,16 @@ El siguiente comando se utiliza para listar todos los recursos que estan instala
 ```
 > npm list -g --depth 0
 
+```
+Para distinguir que una dependencia no va hacer instalada dentro del proyecto pero si queremos ver el outpout
+que nos retorna: --dry-run
+```
+> npm install react --dry-run
 
+```
+Lo unico que va a relizar es simular que se instala nos da el outpud de lo que esta sucediendo, 
 
-
-
-
-
-
+```
 
 
 
