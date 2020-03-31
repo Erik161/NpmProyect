@@ -132,9 +132,10 @@ Otra forma de trabajar con npm fluidamente es resumir install, --save -dev y lo 
 > npm i moment -S
 
 ```
-En algun momento vas a necesitar que un paquete corra de forma global, uno de los principales proyectos que se instala 
-de forma global se llama nodemon, nos permite generar un demonio que se va encargar de estar siempre escuchando algun 
-cambio algun valor va dejar y mantener nuestro proceso algun comando que estemos ejecutando de node:
+En algun momento vas a necesitar que un paquete corra de forma global, uno de los principales proyectos 
+que se instala de forma global se llama nodemon, nos permite generar un demonio que se va encargar de 
+estar siempre escuchando algun cambio algun valor va dejar y mantener nuestro proceso algun comando 
+que estemos ejecutando de node:
 ```
 > npm install -g nodemon
 
