@@ -240,9 +240,3 @@ la carpeta de node_modules y te avisa si uno de estos paquetes no esta instalado
 
 
 
-
-
-
-
-
-
