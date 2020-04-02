@@ -205,7 +205,8 @@ proyecto. --DD para ver un outpout mas detallado.
 >npm outdate --dd
 
 ```
-Con el siguiente comando realizamos updadate de los paquetes que no esten en esa version, lo que hace es actualizar
+Con el siguiente comando realizamos updadate de los paquetes que no esten en esa version, 
+lo que hace es actualizar
 los paquetes a la ultima version. NPM UPDATE.
 ```
 > npm update
@@ -221,12 +222,17 @@ Como voy a desinstalar los paquetes con el siguiente comando: NPM UNINSTALL
 > npm uninstall json-server
 
 ```
-Forma de eliminar un paquete pero sin eliminarlo de package.json con el siguiente comando: NPM UNINSTALL   --NO-SAVE
-de esta forma vamos a desinstalarlo de todo lo que seria node_modules pero no en nuestro archivo de package.json.
+Forma de eliminar un paquete pero sin eliminarlo de package.json con el siguiente comando: 
+NPM UNINSTALL   --NO-SAVE
+de esta forma vamos a desinstalarlo de todo lo que seria node_modules pero no en nuestro
+archivo de package.json.
 ```
 > npm uninstall webpack --no-save
 
-
+```
+NPM para VISUAL STUDIO CODE, analiza tu archivo de packaje.json y lo compara contra 
+la carpeta de node_modules y te avisa si uno de estos paquetes no esta instalados
+```
 
 
 
