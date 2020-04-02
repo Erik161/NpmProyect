@@ -1,7 +1,7 @@
 <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1280px-Npm-logo.svg.png" width="400"></p>
 
 
-### [NPM](https://www.npmjs.com/)
+# [NPM](https://www.npmjs.com/)
 ```
 ¿Qué es NPM (node package manager)? 
 Es un gestor de paquetes el mas popular que tiene javascript donde encontraras una gran cantidad de recursos
@@ -17,12 +17,12 @@ desde librerias que son Open Source, hasta proyectos que nos van a dar vida a nu
 
 ```
 
-### INSTALACIÓN
+# INSTALACIÓN
 ```
 Descarga Node.js ya te incluye una versión de NPM
 ```
 
-# [NODE.JS](https://nodejs.org/es/)
+### [NODE.JS](https://nodejs.org/es/)
 
 
 <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" width="400"></p>
@@ -35,7 +35,8 @@ la ultima versión.
 > $ npm install -g npm@latest
 
 
-## INICIAR NUESTRO PROYECTO
+# INICIAR NUESTRO PROYECTO
+
 ```
 Ingresamos el siguiente comando:
 ```
@@ -59,7 +60,7 @@ descripción del proyecto y ciertos valores que necesita.
 </ul>
 
 
-# INICIAR PROYECTO DE FORMA RAPIDA
+### INICIAR PROYECTO DE FORMA RAPIDA
 
 ```
 No modificamos el Json hasta mas adelante, realiza un Json estatico,
@@ -67,7 +68,7 @@ ingresamos el siguiente comando en consola:
 ```
 > $ npm init -y
 
-# SIGUIENTE FORMA DE DECLARAR DE FORMA ESTATICA TU PROYECTO
+### SIGUIENTE FORMA DE DECLARAR DE FORMA ESTATICA TU PROYECTO
 
 ```
 Al ingresar estos comandos va añadir en la configuración de npm este valor, automaticamente establece 
@@ -87,7 +88,7 @@ los agrega:
 > npm init -y
 
 
-## COMO ES LA FORMA DE INSTALAR PAQUETES
+# COMO ES LA FORMA DE INSTALAR PAQUETES
 
 ```
 Desde un paquete convencional hasta un paquete que es global o con todas las opciones que tenemos 
