@@ -204,17 +204,21 @@ proyecto. --DD para ver un outpout mas detallado.
 ```
 >npm outdate --dd
 
+```
+Con el siguiente comando realizamos updadate de los paquetes que no esten en esa version, lo que hace es actualizar
+los paquetes a la ultima version. NPM UPDATE.
+```
+> npm update
 
+```
+Forma de actualizar un paquete en particular con el siguiente comando: LATEST
+```
+> npm install json-server@latest
 
-
-
-
-
-
-
-
-
-
+```
+Como voy a desinstalar los paquetes con el siguiente comando: NPM UNINSTALL
+```
+> npm uninstall json-server
 
 
 
