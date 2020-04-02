@@ -234,12 +234,7 @@ NPM para VISUAL STUDIO CODE, analiza tu archivo de packaje.json y lo compara con
 la carpeta de node_modules y te avisa si uno de estos paquetes no esta instalados
 ```
 
-
-
-
-
-
-
+![](npm.png)
 
 
 
