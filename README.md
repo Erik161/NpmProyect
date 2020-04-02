@@ -148,13 +148,41 @@ El siguiente comando se utiliza para listar todos los recursos que estan instala
 ```
 Para distinguir que una dependencia no va hacer instalada dentro del proyecto pero si queremos ver el outpout
 que nos retorna: --dry-run
+
+Lo unico que va a relizar es simular que se instala nos da el outpud de lo que esta sucediendo y tu tomas la
+desicion si lo vas a ejecutar si o no en tu proyecto.
+
 ```
 > npm install react --dry-run
 
 ```
-Lo unico que va a relizar es simular que se instala nos da el outpud de lo que esta sucediendo, 
+Hay otra forma de instalar paquetes y es con Force el cual nos va permitir instalar este paquete forzando 
+esa instalacion a que sea el ultimo recurso desde el servidor de NPM se agrega como una dependencia y lo 
+ejecutamos de la siguiente manera:
+```
+> npm install webpack -force
 
 ```
+Podemos editar manualmente nuestros recursos agregarlo en dependencias, Devdependencias, optionalDependencies,
+y si hemos echo esto lo ideal seria volver hacer una instalacion completa y para esto podemos correr 
+el comando: NPM INSTALL
+
+Este comando lo que hace es revisar el archivo de PACKAGE.JSON y lo que hace es volver a instalar cada una 
+de estas dependencias que estan, no importa si estan en desarrollo no importa si estan en las opcionales 
+o en las dependencias que requiera tu proyecto lo que hace es instalar todo lo que se encuentre en el archivo
+PACKAGE.JSON
+```
+>npm install
+
+
+
+
+
+
+
+
+
+
 
 
 
