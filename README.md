@@ -220,7 +220,11 @@ Como voy a desinstalar los paquetes con el siguiente comando: NPM UNINSTALL
 ```
 > npm uninstall json-server
 
-
+```
+Forma de eliminar un paquete pero sin eliminarlo de package.json con el siguiente comando: NPM UNINSTALL   --NO-SAVE
+de esta forma vamos a desinstalarlo de todo lo que seria node_modules pero no en nuestro archivo de package.json.
+```
+> npm uninstall webpack --no-save
 
 
 
