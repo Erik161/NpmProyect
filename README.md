@@ -181,3 +181,53 @@ agregamos lo siguiente: @0.15.0
 ```
 >nm install json-server@0.15.0
 
+
+
+# ACTUALIZAR Y ELIMINAR PAQUETES
+
+```
+Forma de darnos cuenta que existen actualizaciones en nuestros paquetes, el siguiente comando lo que hace es
+listar los paquetes que tenemos en nuestro proyecto NPM LIST
+```
+> npm list
+
+```
+Forma de de ver que paquetes puedan llegar a estar desactualizados NPM OUTDATE
+```
+>npm outdate
+
+```
+Si nosotros queremos ver todo lo que esta sucediendo atras de NPM, nos va a permitir que esta sucediendo
+todo ese script que corre detras de nuestra maquina tiene todo un funcionamiento como trae la informacion
+asi como la secion que estamos utilizando y donde se encuentran ciertas configuraciones de nuestro
+proyecto. --DD para ver un outpout mas detallado.
+```
+>npm outdate --dd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
