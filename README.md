@@ -22,7 +22,7 @@ desde librerias que son Open Source, hasta proyectos que nos van a dar vida a nu
 Descarga Node.js ya te incluye una versión de NPM
 ```
 
-## [NODE.JS](https://nodejs.org/es/)
+# [NODE.JS](https://nodejs.org/es/)
 
 
 <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" width="400"></p>
@@ -59,7 +59,7 @@ descripción del proyecto y ciertos valores que necesita.
 </ul>
 
 
-## INICIAR PROYECTO DE FORMA RAPIDA
+# INICIAR PROYECTO DE FORMA RAPIDA
 
 ```
 No modificamos el Json hasta mas adelante, realiza un Json estatico,
@@ -67,7 +67,7 @@ ingresamos el siguiente comando en consola:
 ```
 > $ npm init -y
 
-## SIGUIENTE FORMA DE DECLARAR DE FORMA ESTATICA TU PROYECTO
+# SIGUIENTE FORMA DE DECLARAR DE FORMA ESTATICA TU PROYECTO
 
 ```
 Al ingresar estos comandos va añadir en la configuración de npm este valor, automaticamente establece 
@@ -174,26 +174,9 @@ PACKAGE.JSON
 ```
 >npm install
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
+Una ultima forma para instalar una dependencia y un paquete de una version particular que voy a utilizar
+agregamos lo siguiente: @0.15.0
+```
+>nm install json-server@0.15.0
 
